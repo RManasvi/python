@@ -1,0 +1,5 @@
+print(type("5"))
+print(type(10))
+print(type("5.5"))
+print(type(8.5))
+print(type(True))
