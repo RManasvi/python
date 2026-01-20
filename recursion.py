@@ -39,14 +39,14 @@ The part where the function **calls itself** with a smaller or modified value.
 
 ## Example: Countdown
 '''
-def countdown(n):
+'''def countdown(n):
     if n <= 0:          # Base case
         print("Done!")
     else:
         print(n)
         countdown(n - 1)   # Recursive case
 
-countdown(5)
+countdown(5)'''
 '''
 
 **Explanation:**
@@ -61,18 +61,15 @@ countdown(5)
 **Factorial meaning:**
 Factorial of `n` = `n × (n-1) × (n-2) ... × 1`
 
-```python
-def factorial(n):
+'''
+'''def factorial(n):
     if n == 0 or n == 1:   # Base case
         return 1
     else:                 # Recursive case
         return n * factorial(n - 1)
 
-print(factorial(5))
-```
-
----
-
+print(factorial(5))'''
+'''
 ## Fibonacci Sequence
 
 **Meaning:**
@@ -84,17 +81,15 @@ Sequence:
 0, 1, 1, 2, 3, 5, 8, ...
 ```
 
-```python
-def fibonacci(n):
+'''
+'''def fibonacci(n):
     if n <= 1:           # Base case
         return n
     else:
         return fibonacci(n - 1) + fibonacci(n - 2)
 
-print(fibonacci(7))
-```
-
----
+print(fibonacci(7))'''
+'''
 
 ## Recursion with Lists
 
