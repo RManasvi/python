@@ -27,15 +27,23 @@ map(function, iterable)
 * Returns a **map object** (convert to list to see output)
 
 ### Example
-
-```python
-def double(n):
+'''
+'''
+def double(n):#better complexity
     return n * 2
 
 n = [5, 6, 7, 8]
 res = map(double, n)
 print(list(res))
-```
+#print(tuple(res))
+n = [5, 6, 7, 8] # bad complexity
+l2=[]
+for i in n:
+    i=i*2
+    l2.append(i)
+print(l2)
+'''
+'''
 
 ### Output
 
@@ -74,13 +82,12 @@ reduce(function, iterable)
 
 ### Example
 
-```python
+
 from functools import reduce
 
 n = [1, 2, 3, 4]
 prod = reduce(lambda x, y: x * y, n)
 print(prod)
-```
 
 ### Output
 
@@ -111,14 +118,13 @@ filter(function, iterable)
 
 ### Example
 
-```python
 def is_even(n):
     return n % 2 == 0
 
 n = [1,2,3,4,5,6,7,8,9,10]
 res = filter(is_even, n)
 print(list(res))
-```
+
 
 ### Output
 
