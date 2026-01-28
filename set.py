@@ -28,11 +28,15 @@ print(thisset)
 '''
 thisset = {"apple", "banana", "cherry", False, True, 0} False and 0 is considered the same value:
 print(thisset)
-print(len(thisset))# length'''
+print(len(thisset))# length
+'''
+
 
 '''
 myset = {"apple", "banana", "cherry"}
 print(type(myset))'''
+
+
 
 '''
 
