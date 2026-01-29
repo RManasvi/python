@@ -58,20 +58,56 @@
 
 '''
 
-class Student:
-    def __init__(self, name):
-        self.name = name
+# class Student:
+#     def __init__(self, name):
+#         self.name = name
 
-s1 = Student("Manasvi")
+# s1 = Student("Manasvi")
+# print(s1.name)
+
+ 
+
+# class car:
+#     def start(self):
+#         print("engine started ")
+# c1=car()
+# c1.start()
+
+# class Student1:
+#     name="manasvi"#print same name 
+# s1=Student1()
+# print(s1.name)
+# s2=Student1()
+# print(s2.name)
+#there will be always be init constructor--->default
+
+class Student1 :
+    name="manasvi"#print same name 
+    def __init__(self): # self--->parameter- new object that is created
+        print("add new element")
+        print(self)
+s1=Student1()
 print(s1.name)
+s2=Student1()
+print(s2.name)
 
 
 
-class car:
-    def start(self):
-        print("engine started ")
-c1=car()
-c1.start()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 '''
 ## 5. Procedural Oriented Approach
